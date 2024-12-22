@@ -34,4 +34,4 @@ Before running the app locally, ensure that you have the following installed:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/22122024.git
+   git clone https://github.com/pdkumhar/22122024.git
