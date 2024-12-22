@@ -1,99 +1,37 @@
-Video Converter Web App
+# Video Converter Web App
 
-Overview
+A web-based video converter application built using **ASP.NET Core MVC** with Razor Pages. The app allows users to convert videos into various popular formats, including MP4, AVI, MOV, WMV, and FLV.
 
-This is a web-based video converter application built using ASP.NET Core MVC Razor Pages. The application allows users to upload videos and convert them into various popular formats, such as MP4, AVI, MOV, WMV, and FLV. It features a user-friendly interface with drag-and-drop functionality and displays essential information like video size, duration, name, extension, and estimated conversion time.
+## Features
 
-Features
+- Convert videos to multiple formats: MP4, AVI, MOV, WMV, FLV
+- Built with **ASP.NET Core MVC** and **Razor Pages**
+- Supports .NET SDK version 8 or later
+- Easy-to-use web interface for uploading and converting videos
+- Simple conversion process with minimal configuration
 
-Upload Video: Supports drag-and-drop or file selection for video uploads.
-
-Format Conversion: Convert videos to MP4, AVI, MOV, WMV, and FLV formats.
-
-Video Information: Displays details such as:
-
-Video size
-
-Duration
-
-File name
-
-File extension
-
-Expected conversion time
-
-Responsive Design: Works seamlessly on desktop and mobile devices.
-
-Screenshots
-
-Home Page
+## Screenshots
 
 
 
-Video Upload
+![Pixel True Mockup (3)](https://github.com/user-attachments/assets/2aa35e06-920b-447d-8b15-ad7db7606afc)
 
 
+> 
+![Pixel True Mockup](https://github.com/user-attachments/assets/cf34a63e-c755-4784-9682-96c2e59c0c53)
+> 
+![Pixel True Mockup (2)](https://github.com/user-attachments/assets/05cbeea7-41b5-48d3-b2a5-b0fdf1a1c9e2)
 
-Conversion Results
+## Prerequisites
 
+Before running the app locally, ensure that you have the following installed:
 
+- **.NET SDK 8 or later**: [Download .NET](https://dotnet.microsoft.com/download/dotnet)
+- A modern web browser (Chrome, Firefox, etc.)
 
-Getting Started
+## Installation
 
-Prerequisites
+1. Clone the repository to your local machine:
 
-.NET 8.0 SDK or later
-
-Visual Studio 2022
-
-FFmpeg: Ensure FFmpeg is installed and added to your system’s PATH.
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/video-converter.git
-cd video-converter
-
-Open the solution file in Visual Studio.
-
-Restore NuGet packages:
-
-dotnet restore
-
-Update the FFmpeg path in the configuration file if necessary.
-
-Run the application:
-
-dotnet run
-
-Open your browser and navigate to http://localhost:5000.
-
-Project Structure
-
-VideoConverter/
-|-- Controllers/
-|   |-- HomeController.cs
-|-- Models/
-|   |-- VideoModel.cs
-|-- Views/
-|   |-- Home/
-|       |-- Index.cshtml
-|       |-- Upload.cshtml
-|-- wwwroot/
-|   |-- css/
-|   |-- js/
-|-- Program.cs
-|-- appsettings.json
-
-Deployment
-
-To deploy the application:
-
-Publish the project in Visual Studio.
-
-Host it on your preferred server or cloud platform (e.g., IIS, Azure, AWS).
-
-Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+   ```bash
+   git clone https://github.com/yourusername/22122024.git
