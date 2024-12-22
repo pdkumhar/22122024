@@ -1,0 +1,188 @@
+﻿/* Global Styles */
+body {
+    background-color: #eef0f1ad; /* Light background color */
+    font-family: 'Roboto', sans-serif;
+    color: #212529; /* Text color for light theme */
+    transition: color 0.3s ease, background-color 0.3s ease;
+    height: 100%;
+    margin: 0;
+}
+
+/* Drag-and-Drop Area */
+#drag-and-drop-area {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    padding: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    #drag-and-drop-area:hover {
+        background-color: #e0f7fa;
+        border-color: #00bcd4;
+    }
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, padding 0.2s ease;
+}
+
+    .btn-primary .bi {
+        margin-right: 8px;
+    }
+
+    .btn-primary:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 15px rgba(106, 17, 203, 0.3);
+    }
+
+/* Upload and Select File Buttons */
+#selectFileBtn,
+#uploadBtn {
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#selectFileBtn {
+    background-color: #00bcd4;
+}
+
+#uploadBtn {
+    background-color: #6a11cb;
+}
+
+    #selectFileBtn .bi,
+    #uploadBtn .bi {
+        margin-right: 8px;
+    }
+
+/* Progress Bar */
+#progressBar {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Headings */
+h2 {
+    color: #212529;
+    transition: color 0.3s ease;
+}
+
+/* File Name Display */
+#fileNameDisplay {
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Modal and Alert Styling */
+.modal-content,
+.alert-info {
+    border-radius: 0.5rem;
+}
+
+/* Footer Section */
+.footer-section {
+    background: linear-gradient(to right, #343a40, #212529);
+    color: #fff;
+    padding: 20px 0;
+    border-top: 2px solid #00bcd4;
+}
+
+    .footer-section p {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    .footer-section a {
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+        .footer-section a:hover {
+            color: #00bcd4;
+            transform: scale(1.1);
+        }
+
+    .footer-section .bi {
+        vertical-align: middle;
+    }
+
+    .footer-section .fs-5 {
+        font-size: 1.25rem;
+    }
+
+    .footer-section .text-warning {
+        animation: pulse 2s infinite;
+    }
+
+/* Animation for glowing effect */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+}
+
+/* Navbar Link Hover */
+.nav-link:hover {
+    color: #00d4ff;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+/* Sidebar Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+/* Video Styling inside Sidebar */
+.sidebar-video {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Limit Sidebar Height */
+.col-md-3 {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Ensure Sidebar Content Doesn't Get Pushed Out */
+.card-body {
+    padding-bottom: 15px;
+}
+.navbar-toggler-icon {
+    font-size: 1.5rem; /* Make the icon slightly larger */
+    color: #ffffff; /* Ensure it contrasts with the background */
+}
+
+.navbar-toggler:hover {
+    color: #00bcd4; /* Optional: add a hover effect */
+}
